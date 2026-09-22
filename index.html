@@ -812,7 +812,7 @@
 
   <div class="titlebar">
     <div class="dots"><span class="dot red"></span><span class="dot amber"></span><span class="dot green"></span></div>
-    <div class="titlebar-name"><b>saheblal</b> — java-developer-portfolio — IntelliJ IDEA</div>
+    <div class="titlebar-name"><b>Saheblal Shaikh</b></div>
     <div class="titlebar-spacer"></div>
     <a href="resume.pdf" download="Saheblal_Shaikh_Resume.pdf" class="resume-btn" id="resumeBtn">↓ resume.pdf</a>
   </div>
@@ -948,7 +948,9 @@
             <p>A full-stack short-link generator with account-based authentication (session-based, BCrypt-hashed
               passwords). Backend and database are containerized with Docker Compose and deployed to a live AWS EC2
               instance behind an Elastic IP, with a React front end for creating and managing links.</p>
+            <!-- in the Projects section, replace the card-links div for URL Shortener -->
             <div class="card-links">
+              <a href="https://linkvaults.duckdns.org/" target="_blank" rel="noopener">Live Demo ↗</a>
               <a href="https://github.com/dev-saheblalshaikh" target="_blank" rel="noopener">GitHub profile ↗</a>
             </div>
           </div>
@@ -1115,11 +1117,14 @@
           </div>
           <p class="diagram-caption">Three containers, one Compose file, one EC2 host.</p>
 
+          <!-- in the infra section, replace the note paragraph -->
           <p class="note">This is what "deployed" means for the URL Shortener: not a screenshot, an actual instance you
-            can point a browser at.</p>
+            can point a browser at — <a href="https://linkvaults.duckdns.org/" target="_blank"
+              rel="noopener">linkvaults.duckdns.org</a>.</p>
           <div class="section-title" style="margin-top:34px;">// what it actually looks like, live</div>
           <div class="shot-wrap" id="shotWrap">
-            <img src="AWS URL Shortener Architecture Diagram.png" alt="Screenshot of the URL Shortener running on the deployed EC2 instance"
+            <img src="AWS URL Shortener Architecture Diagram.png"
+              alt="Screenshot of the URL Shortener running on the deployed EC2 instance"
               onerror="this.parentElement.classList.add('shot-missing')">
             <div class="shot-fallback">
               <p>Add <code>deploy-screenshot.png</code> to the repo, next to <code>index.html</code>, and it'll show
